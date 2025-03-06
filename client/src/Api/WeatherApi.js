@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Api_url = "http://localhost:5000/api/weather";
+const Api_url = "https://laughing-umbrella-kucz.onrender.com/api/weather";
 
 export const fetchWeather = async (lat, lon) => {
   try {
